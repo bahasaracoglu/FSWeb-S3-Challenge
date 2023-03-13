@@ -249,6 +249,42 @@ header nav div {
   background-repeat: no-repeat;
 }
 
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(0, 4, 17, 0.8);
+  background-repeat: no-repeat;
+  justify-content: center;
+}
+
+.menu-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  padding: 5%;
+}
+
+.menu-header {
+  align-self: flex-start;
+  width: 100%;
+  text-align: center;
+  padding: 10%;
+}
+
+.menu-item {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu-item .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 /* footer section */
 footer {
   width: 100%;
