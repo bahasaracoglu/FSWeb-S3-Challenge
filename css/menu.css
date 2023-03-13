@@ -218,7 +218,6 @@ header nav div {
 .social-media-icons {
   display: flex;
   flex-direction: row;
-  font-size: 4em;
   justify-content: center;
   align-items: center;
   width: 100%;
