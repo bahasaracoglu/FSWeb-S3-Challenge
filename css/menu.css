@@ -220,8 +220,13 @@ header nav div {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 100%;
-  gap: 5%;
+  width: 20%;
+  justify-content: space-around;
+  padding-bottom: 1.5%;
+}
+
+.social-media-icons i {
+  font-size: 1.3em;
 }
 
 /* spacer */
